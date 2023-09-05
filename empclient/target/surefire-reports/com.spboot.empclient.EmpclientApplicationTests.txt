@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.spboot.empclient.EmpclientApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.295 s <<< FAILURE! - in com.spboot.empclient.EmpclientApplicationTests
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Unable to load config data from 'config-server:http://localhost:7004'
+Caused by: java.lang.IllegalStateException: File extension is not known to any PropertySourceLoader. If the location is meant to reference a directory, it must end in '/' or File.separator
+
