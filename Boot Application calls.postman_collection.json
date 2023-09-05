@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "9f726d82-ca35-4666-b8f4-8807c5e8aa4b",
+		"name": "Boot Application calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getEmployeeById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8052/emps/?id=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8052",
+					"path": [
+						"emps",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8052/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8052",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "client : getEmployees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8052/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8052",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "client : getEmployees Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8053/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8053",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
